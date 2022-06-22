@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingHorizontal="35dp"
+    android:gravity="center_horizontal"
+    android:fitsSystemWindows="true"
+    tools:context=".Login">
+
+    <View
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:background="@color/black_A700"
+        android:layout_marginVertical="40dp"/>
+    <TextView
+        android:text="@string/login_description"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="15dp"/>
+
+    <EditText
+        android:id="@+id/loginId"
+        android:hint="@string/login_id_hint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="10dp"
+        android:autofillHints="no"
+        android:inputType="textEmailAddress"/>
+    <EditText
+        android:id="@+id/loginPw"
+        android:hint="@string/login_pw_hint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="10dp"
+        android:autofillHints="no"
+        android:inputType="textPassword" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:text="@string/login_forget"
+        android:textColor="@color/black_A500"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/login_enter"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginVertical="30dp"
+        android:text="@string/OR"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginVertical="20dp">
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:background="@color/black_A700"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/login_other_enter"
+            android:layout_marginHorizontal="10dp"/>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_gravity="center_vertical"
+            android:background="@color/black_A700"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginVertical="20dp">
+        <View
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@color/black_A700"
+            android:layout_margin="10dp"/>
+        <View
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@color/black_A700"
+            android:layout_margin="10dp"/>
+        <View
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@color/black_A700"
+            android:layout_margin="10dp"/>
+    </LinearLayout>
+
+</LinearLayout>

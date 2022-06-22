@@ -1,4 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">갓생살기</string>
+
+    <string name="OR">OR</string>
+
+    <!--    Login Activity-->
+    <string name="login_description">This is a service that requires login to view 갓생살기 :)</string>
+    <string name="login_id_hint">Email ID</string>
+    <string name="login_pw_hint">Password</string>
+    <string name="login_forget">Remember your password?</string>
+    <string name="login_enter">Login</string>
+    <string name="login_other_enter">Login with social network account</string>
+    <string name="login_signup"> Sign up</string>
+    <string name="login_signup_additionally">and share newborn tips</string>
+
 </resources>

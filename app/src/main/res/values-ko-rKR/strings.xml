@@ -1,4 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="app_name">갓생살기</string>
+
+    <string name="OR">OR</string>
+
+<!--    Login Activity-->
+    <string name="login_description">갓생살기는 로그인이 필요한 서비스입니다 :)</string>
+    <string name="login_id_hint">E-mail ID</string>
+    <string name="login_pw_hint">Password</string>
+    <string name="login_forget">비밀번호를 잊으셨나요?</string>
+    <string name="login_enter">로그인</string>
+    <string name="login_other_enter">소셜 네트워크 계정으로 로그인</string>
+    <string name="login_signup">회원가입</string>
+    <string name="login_signup_additionally">하고 갓생살이 꿀팁 공유하기</string>
+
+
 </resources>
